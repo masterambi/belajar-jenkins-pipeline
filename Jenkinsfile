@@ -26,7 +26,7 @@ pipeline {
 
                 script(
                     def data = [
-                        "firstName": "Ramzy"
+                        "firstName": "Ramzy",
                         "lastName": "Rashaun"
                     ]
                     writeJSON(file: "data.json", json: data)
