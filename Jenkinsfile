@@ -17,9 +17,9 @@ pipeline {
             }
 
             steps {
-                echo("Author ${AUTHOR}")
-                echo("Email ${EMAIL}")
-                echo("Web ${WEB}")
+                echo("Author : ${AUTHOR}")
+                echo("Email : ${EMAIL}")
+                echo("Web : ${WEB}")
                 echo("Start Job : ${env.JOB_NAME}")
                 echo("Start Build : ${env.BUILD_NUMBER}")
                 echo("Branch Name : ${env.BRANCH_NAME}")
