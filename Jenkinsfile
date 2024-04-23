@@ -6,6 +6,11 @@ pipeline {
         EMAIL = "ramzyrash@gmail.com"
         WEB = "https://www.ramzyrash.com"
     }
+
+    options {
+        disableConcurrentBuilds()
+        timeout(time: 10, unit: 'MINUTES')
+    }
     
     stages {
 
